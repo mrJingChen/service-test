@@ -2,6 +2,7 @@ package cn.mrjingchen.portscan;
 
 import javax.servlet.http.HttpServletRequest;
 
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -11,6 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
  * @version v0.1
  */
 @RestController
+@CrossOrigin(allowCredentials = "true", maxAge = 3600)
 public class DemoController {
 	
 	/**

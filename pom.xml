@@ -34,5 +34,6 @@
   
 	<modules>
 		<module>port-scan</module>
+		<module>http-cors</module>
 	</modules>
 </project>
