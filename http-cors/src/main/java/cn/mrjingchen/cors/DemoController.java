@@ -8,7 +8,8 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 
 /**
- * <p>Description: </p>
+ * <p>Description: 测试页</p>
+ * 不能设置"/"请求路径，会拦截到static下静态资源
  * @author charles·chen
  * @version v0.1
  */

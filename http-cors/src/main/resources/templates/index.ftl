@@ -114,9 +114,9 @@
 					</tr>
 				</thead>
 				<tbody>
-					<tr class="success" v-if="post_flag">
-						<td> {{default_post_request}} </td>
-						<td> {{post_response}} </td>
+					<tr class="success" v-if="postfile_flag">
+						<td> {{default_postfile_request}} </td>
+						<td> {{postfile_response}} </td>
 					</tr>
 				</tbody>
 			</table>
@@ -236,7 +236,7 @@
 				            function(error) {
 				            	alert("请求出错了; 请检查URL是否正确->URL=" + requestUrl);
 				            	console.error(error.stack);
-				            	 _this.post_flag = false;
+				            	 _this.postfile_flag = false;
 				        });
 				}
 			},
